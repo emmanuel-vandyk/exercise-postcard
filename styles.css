@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+:root {
+--font-default: "Schoolbell", cursive;
+}
+
+body {
+font-family: var(--font-default);
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+padding: 10px;
+margin: 0 20px;
+background-color: gray;
+}
+
+.postcard-header, .postcard-body, .postcard-footer {
+display: flex;
+justify-content: space-between;
+background-color: white;
+width: 100%;
+padding: 0 15px;
+}
+
+.postcard-header {
+align-items: center;
+}
+
+.postcard-body {
+height: 40vh;
+}
+
+.postcard-footer {
+height: 29vh;
+justify-content: center;
+padding-top: 10px;
+}
+
+.postcard-title {
+margin-left: 25px;
+}
+
+.postcard-logo img {
+margin-top: 20px;
+width: 80px;
+}
+
+.postcard-header {
+margin-top: 30px;
+}
+
+p {
+font-size: 21px;
+margin-top: 1em;
+width: 36%;
+}
+
+input {
+display: block;
+margin-top: 10px;
+border: none;
+border-bottom: 1px solid black;
+width: 350px;
+font-size: 20px;
+}
+
+button {
+font-family: var(--font-default);
+font-weight: bold;
+font-size: large;
+margin-top: 1rem;
+height: 55px;
+width: 150px;
+}
